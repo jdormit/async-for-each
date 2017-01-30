@@ -14,10 +14,13 @@
  *    function, the iteration will never complete.
  *
  * @param {function} callback - 
- *     The callback function. Called with no arguments
- *     when the iteration is complete.
+ *     The callback function. Called with an error if one
+ *     exists when the iteration is complete.
  */
 var asyncForEach = function(array, iterator, callback) {
+    if (!array) {
+        return callback(new Error("The array is undefined or null"));
+    }
     var n = -1;
     var next = function() {
         n++;
