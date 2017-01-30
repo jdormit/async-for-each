@@ -1,7 +1,7 @@
 /**
  * The asyncForEach iterator callback.
  * @callback iteratorCallback
- * @param value - The value currently being iterated over.
+ * @param {*} value - The value currently being iterated over.
  * @param {number} index - The index currently being iterated over
  * @param {function} next - 
  *     Called to indicate that the current iteration is over.

@@ -65,7 +65,7 @@ The asyncForEach iterator callback.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| value |  | The value currently being iterated over. |
+| value | <code>\*</code> | The value currently being iterated over. |
 | index | <code>number</code> | The index currently being iterated over |
 | next | <code>function</code> | Called to indicate that the current iteration is over. |
 
