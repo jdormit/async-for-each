@@ -1,0 +1,31 @@
+{
+  "name": "async-for-each",
+  "version": "1.0.0",
+  "description": "Asynchronous array iteration",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md index.js > docs.md && markdown-include markdown.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdormit/async-for-each.git"
+  },
+  "keywords": [
+    "async",
+    "foreach",
+    "iterator",
+    "loop",
+    "asynchronous"
+  ],
+  "author": "Jeremy Dormitzer <jeremy.dormitzer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdormit/async-for-each/issues"
+  },
+  "homepage": "https://github.com/jdormit/async-for-each#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^2.0.1",
+    "markdown-include": "^0.4.3"
+  }
+}
