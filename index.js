@@ -1,11 +1,7 @@
 /**
  * Iterates over an array asynchronously.
  *
- * <br>
- *
  * @param {Array} array - The array over which to iterate.
- * 
- * <br>
  * 
  * @param {function} iterator -
  *    The iterator function. Called with the signature
@@ -14,12 +10,10 @@
  *    and next is a function to be called when the next
  *    iteration should occur.
  *
- *    <br>
+ *    <br><br>
  *
  *    IMPORTANT: if next() is never called in the iterator
  *    function, the iteration will never complete.
- *
- * <br>
  *
  * @param {function} callback - 
  *     The callback function. Called with the signature
