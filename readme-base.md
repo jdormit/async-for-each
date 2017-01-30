@@ -1,14 +1,14 @@
-# async-for-each !heading
+# async-for-each
 ## Asynchronous array iteration
 `async-for-each` exposes a function to iterate over an array asynchronously. This is useful
 for iteration that must occur in an asynchronous context, or for iterating over long arrays
 without blocking the event loop.
 
-# Installation !heading
+# Installation
 
     npm install --save async-for-each
 
-# Usage !heading
+# Usage
 
 ```javascript
 const asyncForEach = require("async-for-each");
