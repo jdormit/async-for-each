@@ -1,3 +1,10 @@
+# Table of Contents
+
+* [async-for-each](#async-for-each)
+* [Installation](#installation)
+* [Usage](#usage)
+
+
 # async-for-each
 ## Asynchronous array iteration
 `async-for-each` exposes a function to iterate over an array asynchronously. This is useful
